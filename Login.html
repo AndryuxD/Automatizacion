@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <br><br><br>
+    
+    <div class="container-fluid">
+        <div align="center">
+            <div class="col-lg-3 col-md-12 col-sm-12" style="margin-top: 10px;">
+                <div class="card border-success mb-3" style="max-width: 25rem;">
+                    <div class="card-header" align="center">
+                        <h1>Login</h1>
+                        <h2>Administracion del sistema de automatizacion</h2>
+                    </div>
+                    <div class="card-body">
+                        
+                        <form action="login.php" method="post" >
+
+                            <input type="text" name="clv" class="form-control" placeholder="Clave del docente" autocomplete="off" required><br>
+                            <input type="password" minlength="1" maxlength="64" name="password" class="form-control" placeholder="Password" required><br><br>
+                            <input type="submit" value="Entrar" class="btn btn-outline-success btn-block"><br>
+                            <!--<a href="choosing.html" >Forgot password?</a><br>-->
+                              
+                                
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+</body>
+</html>

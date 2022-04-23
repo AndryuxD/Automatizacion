@@ -1,0 +1,147 @@
+/*
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+*/
+.mapa{
+    background:url('../Admin/ImagenesLocales/Mapa_Satelite_Escuela.png');
+    width: 430px;
+    height: 630px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 0 0 70px;
+}
+.aula{
+    border-style: solid;
+    border-width: 0 0 90px 0;
+    height: 0;
+    width: 90px;
+    position: absolute;
+}
+.Ocupada{
+    border-color: #dc3545 ;
+}
+.Disponible{
+    border-color: #28a745;
+}
+.Limpieza{
+    border-color: #17a2b8;
+}
+.Mantenimiento{
+    border-color: #ffc107;
+}
+.D1{
+    margin: 200px 1px 0 312px;
+}
+.D2{
+    margin: 200px 0 0 403px;
+}
+.D3{
+    margin: 0 0 0 403px;
+}
+.D4{
+    margin: 0 1px 0 312px;
+}
+.Lab1D{
+    margin: 200px 1px 0 221px;
+}
+.Lab2D{
+    margin: 200px 1px 0 130px;
+}
+.AudiovisualD{
+    margin: 0 0 0 85px;
+    font-size: 13px;
+}
+.Edificio{
+    border-style: solid;
+    border-color: black ;
+    border-width: 90% 90% 90% 90%;
+    position: absolute;
+    margin: 50px 50px 50px 50px;
+}
+.edificioD {
+    height: 300px;
+    width: 500px;
+}
+.edificioB {
+    height: 300px;
+    width: 500px;
+}
+.escuela {
+    border-style: solid;
+    border-color: black black black black;
+    border-width: 90% 90% 90% 90%;
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    margin: 50px 50px 50px 50px;
+}
+.BBP{
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+}
+.K {
+    height: 60px;
+    width: 100px;
+    top: 65px;
+    left: 415px;
+}
+.L {
+    height: 50px;
+    width: 80px;
+    top: 165px;
+    left: 425px;
+}
+.D {
+    height: 55px;
+    width: 90px;
+    top: 215px;
+    left: 255px;
+}
+.G {
+    height: 55px;
+    width: 110px;
+    top: 120px;
+    left: 245px;
+}
+.F {
+    height: 60px;
+    width: 100px;
+    top: 200px;
+    left: 90px;
+}
+.B {
+    height: 30px;
+    width: 50px;
+    top: 290px;
+    left: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.N {
+    height: 85px;
+    width: 60px;
+    top: 490px;
+    left: 165px;
+}
